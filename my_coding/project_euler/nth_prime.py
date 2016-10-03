@@ -7,6 +7,8 @@ Sample input:
 Sample output:
 5
 13
+
+http://code.mikeyaworski.com/python/project_euler/problem_8
 """
 
 
