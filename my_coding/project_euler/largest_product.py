@@ -13,14 +13,14 @@ Sample output:
 
 
 def largest_product(s, d):
-    largest = 0
+    largest_prod = 0
     for i in xrange(0, len(s) - d):
         product = 1
         for j in xrange(i, i + d):
             product *= int(s[j: j + 1])
-        if product > largest:
-            largest = product
-    return largest
+        if product > largest_prod:
+            largest_prod = product
+    return largest_prod
 
 
 def main():
