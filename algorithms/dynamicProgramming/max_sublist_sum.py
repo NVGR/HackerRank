@@ -18,4 +18,3 @@ def max_sublist_sum(l):
         cur = max(cur + i, 0)
         best = max(best, cur)
     return best
-
