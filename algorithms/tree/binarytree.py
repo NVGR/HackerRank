@@ -74,7 +74,7 @@ if __name__ == '__main__':
     print 'Enter your tree:'
     li = [int(x) for x in raw_input().split()]
     my_tree = BinaryTree(li[0])
-    for i in li[2:]:
+    for i in li[1:]:
         my_tree.insert(i)
     print_tree(my_tree)
     print '\n Height is: {0}'.format(height(my_tree))

@@ -14,3 +14,4 @@ if __name__ == '__main__':
     li = [int(x) for x in raw_input().split()]
     k = int(raw_input())
     print get_pairs(li, k)
+
